@@ -25,3 +25,19 @@ async def receive_indp_messages(ws, timeout=0.5):
             received.append(message)
     except asyncio.TimeoutError:
         return received
+
+async def main():
+    async with connect_to_server() as ws:
+        welcome = await receive_message(ws)
+        print(welcome)
+
+        while True:
+            text = input("You: ")
+            if text == "exit":
+                break
+            await send_message(ws, text)
+            echo = await receive_message(ws)
+            print(f"Server: {echo}")
+
+if __name__ == "__main__":
+    asyncio.run(main())
