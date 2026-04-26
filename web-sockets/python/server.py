@@ -1,9 +1,13 @@
 import websockets
 import asyncio
 
-async def start_server():
+async def start_server(handler=None):
 
-    server = await websockets.serve(lambda ws: None, "localhost", 8765)
+    if handler is None:
+        async def handler(ws):
+            await ws.wait_closed()
+
+    server = await websockets.serve(handler, "localhost", 8765)
     return server
 
 async def main():
