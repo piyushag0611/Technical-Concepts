@@ -15,16 +15,16 @@ concepts/
 
 ## Index
 
-| Folder | Concept | Domain | Difficulty | Date | Status|
-|--------|---------|--------|------------|------|-------|
-| Web_Sockets | web sockets | `networking` | `Intermediate` | April, 21 | `pending`|
+| Folder | Concept | Domain | Difficulty | Date-Added | Status| Python | Go | C# | Completed-Date|
+|--------|---------|--------|------------|------------|-------|---|---|---|--------|
+| Web_Sockets | web sockets (Usage) | `networking` | `Intermediate` | April, 21 | `completed`| ✅ | ✅ | ✅ | April, 28|
 | SSE | server sent events | `networking` | `Intermediate` | April, 21 | `pending`|
 | parquet | Parquet file format| `ml-ai` | `Intermediate` | April, 21 | `pending`|
 | consistent_hashing | Consistent Hashing | `systems` | `Intermediate` | April, 21 | `pending`|
 | geohashing | Indexing for geometric entries | `systems` | `Intermediate` | April, 21 | `pending`|
 | B-Trees | B-Tree Indexing | `systems` | `Intermediate` | April, 21 | `pending`|
 | LSM-Trees | LSM-Tree Indexing| `systems` | `Intermediate` | April, 21 | `pending`|
-
+| MCP | Model Context Protocol | `ml-ai` | `Intermediate`| April, 28 | `pending` | 
 
 
 **Domains:** `ml-ai` · `systems` · `math` · `networking` · `security` · `other`  
