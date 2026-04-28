@@ -101,6 +101,9 @@ ipython_config.py
 web-sockets/python/.venv/
 web-sockets/python/__pycache__/
 
+web-sockets/csharp/bin/
+web-sockets/csharp/obj/
+
 
 # poetry
 #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.

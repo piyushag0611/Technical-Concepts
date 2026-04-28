@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web-sockets", "web-sockets", "{62DBFD30-DB1B-F79A-6DE0-21DD32894D95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp", "csharp", "{3658A02D-1BE3-AF5F-8E19-5F8B1EBEC791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketDemo", "web-sockets\csharp\WebSocketDemo.csproj", "{68D86CD6-984C-8816-6F6C-AE380FE8BFE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68D86CD6-984C-8816-6F6C-AE380FE8BFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D86CD6-984C-8816-6F6C-AE380FE8BFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D86CD6-984C-8816-6F6C-AE380FE8BFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D86CD6-984C-8816-6F6C-AE380FE8BFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3658A02D-1BE3-AF5F-8E19-5F8B1EBEC791} = {62DBFD30-DB1B-F79A-6DE0-21DD32894D95}
+		{68D86CD6-984C-8816-6F6C-AE380FE8BFE1} = {3658A02D-1BE3-AF5F-8E19-5F8B1EBEC791}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8848B1E-8C93-4495-8C15-11C9F859D559}
+	EndGlobalSection
+EndGlobal
