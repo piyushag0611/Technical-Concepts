@@ -129,7 +129,7 @@ func TestHeapifyMethod2(t *testing.T) {
 }
 
 func BenchmarkHeapifyMethod1(b *testing.B) {
-	sizes := []int{100, 1000, 10000, 100000, 1000000}
+	sizes := []int{100, 1000, 10000, 100000, 1000000, 10000000}
 	for _, n := range sizes {
 		data := make([]int, n)
 		for i := range data {
@@ -146,7 +146,7 @@ func BenchmarkHeapifyMethod1(b *testing.B) {
 }
 
 func BenchmarkHeapifyMethod2(b *testing.B) {
-	sizes := []int{100, 1000, 10000, 100000, 1000000}
+	sizes := []int{100, 1000, 10000, 100000, 1000000, 10000000}
 	for _, n := range sizes {
 		data := make([]int, n)
 		for i := range data {
