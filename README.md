@@ -16,7 +16,7 @@ concepts/
 ## Index
 
 | Folder | Concept | Domain | Date-Added | Status| Python | Go | C# | Completed-Date|
-|--------|---------|--------|------------|------------|-------|---|---|---|--------|
+|--------|---------|--------|------------|-------|---|---|---|--------|
 | web-sockets | web sockets (Usage) | `networking` | April, 21 | `completed`| ✅ | ✅ | ✅ | April, 28|
 | SSE | server sent events | `networking` | April, 21 | `pending`|
 | parquet | Parquet file format| `ml-ai` | April, 21 | `pending`|
