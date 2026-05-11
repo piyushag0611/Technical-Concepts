@@ -17,7 +17,7 @@ concepts/
 
 | Folder | Concept | Domain | Difficulty | Date-Added | Status| Python | Go | C# | Completed-Date|
 |--------|---------|--------|------------|------------|-------|---|---|---|--------|
-| Web_Sockets | web sockets (Usage) | `networking` | `Intermediate` | April, 21 | `completed`| ✅ | ✅ | ✅ | April, 28|
+| web-sockets | web sockets (Usage) | `networking` | `Intermediate` | April, 21 | `completed`| ✅ | ✅ | ✅ | April, 28|
 | SSE | server sent events | `networking` | `Intermediate` | April, 21 | `pending`|
 | parquet | Parquet file format| `ml-ai` | `Intermediate` | April, 21 | `pending`|
 | consistent_hashing | Consistent Hashing | `systems` | `Intermediate` | April, 21 | `pending`|
@@ -25,10 +25,10 @@ concepts/
 | B-Trees | B-Tree Indexing | `systems` | `Intermediate` | April, 21 | `pending`|
 | LSM-Trees | LSM-Tree Indexing| `systems` | `Intermediate` | April, 21 | `pending`|
 | MCP | Model Context Protocol | `ml-ai` | `Intermediate`| April, 28 | `pending` | 
+| heap | Heap: Data Structure | `data-structure` | `Easy` | May, 7 | `in progress`| ✅ | - | - | - |
 
-
-**Domains:** `ml-ai` · `systems` · `math` · `networking` · `security` · `other`  
-**Difficulty:** `beginner` · `intermediate` · `advanced`
+**Domains:** `data-structure` · `ml-ai` · `systems` · `math` · `networking` · `security` · `other`  
+**Difficulty:** `Easy` · `intermediate` · `advanced`
 **Status:**  `pending` · `in progress` · `completed`
 ## Commit Convention
 
